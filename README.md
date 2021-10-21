@@ -25,3 +25,5 @@ Demo shows how to use updated bashrc file to make your workflow better
 
 https://user-images.githubusercontent.com/53620577/138263405-63c63dfe-5e0b-4dce-80a9-9e42b7b36ae5.mp4
 
+If you like it, a star to the repo would be a great to keep me motivated.
+Thanks.!
