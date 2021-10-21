@@ -120,10 +120,10 @@ if [ -d "$f" ]; then
   if [ -d "$f"/install ]; then
     cd "$f"
     source "$ros2_path"
-    source -e "$PWD"/install/setup.bash && echo "sourcing "$PWD" install/setup.bash"
+    source "$PWD"/install/setup.bash && echo "sourcing "$PWD" install/setup.bash"
     ROS=[ROS2]
   else 
-    echo "${BRed}[ERROR]${NC} Either "$f" is not a ROS2 workspace or it is not built yet."
+    echo -e "${BRed}[ERROR]${NC} Either "$f" is not a ROS2 workspace or it is not built yet."
   fi
 fi
 if [[ "$f" == "" ]]; then
