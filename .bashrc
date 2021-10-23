@@ -75,7 +75,7 @@ fi
 
 if [ -d "$PWD"/install ]; then
   ROS=[ROS2]
-	source "$ros1_path"
+	source "$ros2_path"
 	source "$PWD"/install/setup.bash
 	echo "sourcing "$PWD"/install/setup.bash "
 fi
