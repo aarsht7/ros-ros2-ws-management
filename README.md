@@ -15,9 +15,9 @@ Modified bashrc file to make your life easy with running ROS and ROS2 in paralle
 - ```$ exit_ros``` To exit any of the ros workspace and remove all the ros related variable from current bash prompt. You can jump to other version of ros from the same terminal flawlessly. 
 
 ## How to use it
-- You can simply replace your ```~/.bashrc``` with the new one provided here and make the change to your source path for ros in line 62&63.![60-63](https://user-images.githubusercontent.com/53620577/138263544-1524c282-b26c-4887-adbc-90ff80acaf1f.png)
+- [Recommended] You can copy the ```.bash_aliases``` to your $HOME folder as ```~/.bash_alias``` and make the change to your source path for ros in line 62&63.![60-63](https://user-images.githubusercontent.com/53620577/138263544-1524c282-b26c-4887-adbc-90ff80acaf1f.png)
 
-- In case if you do not want to replace it, copy from line 59 to 175 and follow the instruction from line 176.
+- In case if you do not want to add new file you can edit your ```./~bashrc```. For that copy from line 59 to 175 and follow the instruction from line 176.
 
 ## Demo
 Demo shows how to use updated bashrc file to make your workflow better
